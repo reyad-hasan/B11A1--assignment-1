@@ -24,7 +24,7 @@
   --main-bg: #f5f5f5;
   --hero-bg: #c6e4d6;
   --card-bg1: #d5e1f5;
-  --card-bg2: #c634d6;
+  --card-bg2: #c6e4d6;
   --card-bg3: #f7ebcf;
   --hover-bg: #ffffff;
 }
@@ -33,14 +33,11 @@
 
 .max-width {
   max-width: 1366px;
+  margin: 0 auto;
 }
 
 .main-bg {
   background-color: var(--main-bg);
-}
-
-.margin {
-  margin: 0px 100px;
 }
 
 .primary-btn {
@@ -71,7 +68,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 0;
+  padding: 20px 100px;
 }
 
 .logo {
@@ -103,6 +100,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 45px 35px;
+  margin: 0px 100px;
 }
 
 .hero-bd {
@@ -121,6 +119,10 @@ nav {
 
 
 /* pillars section style start from here */
+.pillars-section {
+  margin: 0px 100px;
+}
+
 .pillars-title {
   color: var(--primary-color);
   font-size: 2.5rem;
@@ -146,17 +148,79 @@ nav {
   transform: scale(1.02);
 }
 
-.p-box img {
+.p-box img,
+.future-box img {
   width: 45px;
 }
 
-.p-box h3 {
+.p-box h3,
+.fira-sans h3 {
   color: var(--secondary-title-color);
   margin: 15px 0 5px 0;
 }
 
-.p-box p {
+.p-box p,
+.the-vision-future-section p {
   color: var(--description-color);
   font-size: 1rem;
   font-weight: 300;
+}
+
+/* the-vision-future-section style start from here */
+.the-vision-future-section {
+  margin: 0px 100px;
+}
+
+.the-vision-future-section p {
+  margin-top: 8px;
+}
+
+.vision-of-future-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -30px;
+}
+
+.future-box {
+  background-color: var(--card-bg1);
+  border-radius: 8px;
+  padding: 25px;
+  width: 30%;
+}
+
+.future-btn-1 {
+  background-color: #5490F5;
+  border: 1px solid #5490F5;
+  margin-top: 10px;
+}
+
+.future-btn-1:hover {
+  border: 1px solid #5490F5;
+  color: #5490F5;
+}
+
+.future-box-2 {
+  background-color: var(--card-bg2);
+}
+
+.future-btn-2 {
+  background-color: #09A15C;
+  border: 1px solid #09A15C;
+  margin-top: 10px;
+}
+
+.future-btn-2:hover {
+  border: 1px solid #09A15C;
+  color: #09A15C;
+}
+
+.future-btn-3 {
+  background-color: #FFC239;
+  border: 1px solid #FFC239;
+  margin-top: 10px;
+}
+
+.future-btn-3:hover {
+  border: 1px solid #FFC239;
+  color: #FFC239;
 }
