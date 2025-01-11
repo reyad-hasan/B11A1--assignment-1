@@ -1,20 +1,20 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* font family FIRA SANS */
 
 .fira-sans {
-    font-family: "Fira Sans", serif;
-    font-weight: normal;
-    font-style: normal;
-  }
+  font-family: "Fira Sans", serif;
+  font-weight: normal;
+  font-style: normal;
+}
 
 /* root var function */
 
-:root{
+:root {
   --primary-color: #0e0e0e;
   --secondary-color: #6a7972;
   --btn-color: #006150;
@@ -25,36 +25,57 @@
   --card-bg1: #d5e1f5;
   --card-bg2: #c634d6;
   --card-bg3: #f7ebcf;
-  --hover-bg:#ffffff;
+  --hover-bg: #ffffff;
 }
 
 /* share style start from here */
 
-.main-bg{
+.max-width {
+  max-width: 1366px;
+}
+
+.main-bg {
   background-color: var(--main-bg);
 }
 
-.margin{
+.margin {
   margin: 0px 100px;
+}
+
+.primary-btn{
+  background-color: var(--btn-color);
+  color: var(--white-color);
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: 1px solid var(--btn-color);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.primary-btn:hover{
+  border: 1px solid var(--btn-color);
+  background-color: var(--white-color);
+  color: var(--btn-color);
 }
 
 
 
 /* nav section style start from here */
-nav{
+nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 20px 0;
 }
 
-.logo{
+.logo {
   font-size: 2rem;
   color: var(--primary-color);
   cursor: pointer;
 }
 
-.nav-btn{
+.nav-btn {
   padding: 10px 20px;
   border-radius: 5px;
   font-size: 1rem;
@@ -64,7 +85,31 @@ nav{
   transition: 0.3s;
 }
 
-.nav-btn:hover{
+.nav-btn:hover {
   background-color: var(--btn-color);
   color: var(--white-color);
+}
+
+.hero-section {
+  /* border: 1px solid red; */
+  background-color: var(--hero-bg);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 35px;
+}
+
+.hero-bd {
+  color: var(--secondary-color);
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.hero-title {
+  color: var(--primary-color);
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 15px;
 }
