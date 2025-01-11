@@ -429,7 +429,7 @@ table .agree-box {
 
 .amount-box .amount-money {
   width: 85%;
-  border: none;
+  border: 1px solid var(--white-color);
   padding: 15px;
   font-size: 1.1rem;
   text-align: center;
