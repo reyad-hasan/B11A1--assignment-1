@@ -100,7 +100,8 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 45px 35px;
-  margin: 0px 100px;
+  max-width: 1145px;
+  margin: 0px auto;
 }
 
 .hero-bd {
@@ -120,7 +121,8 @@ nav {
 
 /* pillars section style start from here */
 .pillars-section {
-  margin: 0px 100px;
+  max-width: 1145px;
+  margin: 0px auto;
 }
 
 .pillars-title {
@@ -168,7 +170,8 @@ nav {
 
 /* the-vision-future-section style start from here */
 .the-vision-future-section {
-  margin: 0px 100px;
+  max-width: 1145px;
+  margin: 0px auto;
 }
 
 .the-vision-future-section p {
@@ -223,4 +226,31 @@ nav {
 .future-btn-3:hover {
   border: 1px solid #FFC239;
   color: #FFC239;
+}
+
+/* dr-muhammad-yunus-section style start from here */
+.dr-muhammad-yunus-section {
+  background-color: var(--white-color);
+  padding: 25px;
+  max-width: 1145px;
+  margin: 0px auto;
+  border-radius: 8px;
+  border: 1px solid rgba(128, 128, 128, 0.349);
+
+}
+
+.dr-muhammad-yunus-section .left-bg {
+  background-image: url(../assets/quote-bg.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+.dr-muhammad-yunus-section p {
+  color: var(--description-color);
+  font-size: 1rem;
+  padding-top: 30px;
+}
+
+.chief {
+  margin-top: -30px;
 }
