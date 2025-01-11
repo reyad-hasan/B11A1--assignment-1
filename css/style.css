@@ -254,3 +254,57 @@ nav {
 .chief {
   margin-top: -30px;
 }
+
+/* your-opinion-section style start from here */
+.your-opinion-section {
+  max-width: 1145px;
+  margin: 0px auto;
+}
+
+.opinion-table-box {
+  background-color: var(--white-color);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.089), 0 6px 20px 0 rgba(0, 0, 0, 0.089);
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 30px 20px;
+}
+
+.questions-box {
+  background-color: var(--card-bg1);
+  padding: 5px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+
+table,
+td {
+  border: 1px solid rgba(128, 128, 128, 0.349);
+  padding: 15px;
+}
+
+table .table-w {
+  width: 80%;
+  color: var(--description-color);
+}
+
+table .table-agree {
+  text-align: center;
+}
+
+table .agree-box {
+  border: 1px solid var(--secondary-color);
+  border-radius: 5px;
+  background-color: var(--card-bg1);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  cursor: pointer;
+}
