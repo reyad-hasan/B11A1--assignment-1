@@ -134,12 +134,15 @@ nav {
 
 .p-box {
   width: 30%;
+  background-color: var(--white-color);
+  border-radius: 8px;
+  padding: 40px 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.089), 0 6px 20px 0 rgba(0, 0, 0, 0.089);
   cursor: pointer;
   transition: 0.3s;
 }
 
-.p-box:hover{
+.p-box:hover {
   transform: scale(1.02);
 }
 
@@ -156,13 +159,4 @@ nav {
   color: var(--description-color);
   font-size: 1rem;
   font-weight: 300;
-}
-
-.p-box-1,
-.p-box-2,
-.p-box-3,
-.p-box-4 {
-  background-color: var(--white-color);
-  border-radius: 8px;
-  padding: 50px 20px;
 }
