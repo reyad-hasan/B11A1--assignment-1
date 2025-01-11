@@ -421,3 +421,26 @@ table .agree-box {
   font-size: 1.7rem;
   color: var(--secondary-title-color);
 }
+
+.amount-box {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.amount-box .amount-money {
+  width: 85%;
+  border: none;
+  padding: 15px;
+  font-size: 1.1rem;
+  text-align: center;
+  border: 1px solid none;
+  transition: 0.5s;
+  outline: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.089), 0 6px 20px 0 rgba(0, 0, 0, 0.089);
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.amount-box .amount-money:focus {
+  border: 1px solid var(--description-color);
+}
