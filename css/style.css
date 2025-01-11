@@ -372,3 +372,52 @@ table .agree-box {
 .satellite-section-2 {
   flex-direction: row-reverse;
 }
+
+/* donate-today-section style start from here */
+.donate-today-section {
+  max-width: 1145px;
+  margin: 0px auto;
+
+}
+
+.donate-title-box {
+  text-align: center;
+  margin: 25px;
+}
+
+.donate-title-box p {
+  color: var(--description-color);
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.taka-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.donate-today-section .taka-box {
+  background-color: var(--white-color);
+  padding: 25px 55px;
+  border-radius: 8px;
+  text-align: center;
+  border: 1px solid rgba(128, 128, 128, 0.349);
+  cursor: pointer;
+}
+
+.donate-today-section .taka-box:hover {
+  background-color: var(--card-bg1);
+}
+
+.donate-today-section .taka-container .taka-box-2 {
+  background-color: var(--card-bg1);
+}
+
+.donate-today-section .taka-container .taka-box-2:hover {
+  background-color: var(--card-bg3);
+}
+
+.donate-today-section .taka-box h2 {
+  font-size: 1.7rem;
+  color: var(--secondary-title-color);
+}
