@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* font family FIRA SANS */
+
+.fira-sans {
+    font-family: "Fira Sans", serif;
+    font-weight: normal;
+    font-style: normal;
+  }
+
+/* root var function */
+
+:root{
+  --primary-color: #0e0e0e;
+  --secondary-color: #6a7972;
+  --btn-color: #006150;
+  --description-color: #565656;
+  --white-color: #ffffff;
+  --main-bg: #f5f5f5;
+  --hero-bg: #c6e4d6;
+  --card-bg1: #d5e1f5;
+  --card-bg2: #c634d6;
+  --card-bg3: #f7ebcf;
+  --hover-bg:#ffffff;
+}
+
+/* share style start from here */
+
+.main-bg{
+  background-color: var(--main-bg);
+}
+
+.margin{
+  margin: 0px 100px;
+}
+
+
+
+/* nav section style start from here */
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.logo{
+  font-size: 2rem;
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+.nav-btn{
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  border: 1px solid var(--btn-color);
+  color: var(--btn-color);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.nav-btn:hover{
+  background-color: var(--btn-color);
+  color: var(--white-color);
+}
