@@ -438,9 +438,64 @@ table .agree-box {
   outline: none;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.089), 0 6px 20px 0 rgba(0, 0, 0, 0.089);
   border-radius: 8px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .amount-box .amount-money:focus {
   border: 1px solid var(--description-color);
+}
+
+/* newsletter-section style start from here */
+.newsletter-main-section {
+  margin: 45px 0px;
+}
+
+.newsletter-section {
+  max-width: 1145px;
+  margin: 0px auto;
+  background-color: var(--hero-bg);
+  border-radius: 20px;
+  padding: 30px;
+  text-align: center;
+}
+
+.newsletter-section p {
+  color: var(--description-color);
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 10px 0px;
+}
+
+.newsletter-main-section .newsletter-section .email-input {
+  width: 70%;
+  padding: 10.5px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px 0px 0px 5px;
+
+}
+
+.newsletter-main-section .newsletter-section .email-input:focus {
+  outline: none;
+}
+
+.email-box .subscribe-btn {
+  background-color: var(--btn-color);
+  border: 1px solid var(--btn-color);
+  padding: 9.3px 15px;
+  border-radius: 0px 5px 5px 0px;
+  color: var(--white-color);
+  cursor: pointer;
+  font-size: 1rem;
+  margin-left: -3px;
+  transition: 0.3s;
+}
+
+.email-box .subscribe-btn:hover {
+  color: var(--primary-color);
+}
+
+.email-box p {
+  margin-top: 20px;
+  color: var(--primary-color);
 }
